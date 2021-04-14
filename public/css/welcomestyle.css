@@ -1,0 +1,58 @@
+
+
+main
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	transform: translateY(-50%);
+        
+}
+#time
+{
+	font-size: 8.5vw;
+        color: black;
+}
+#date
+{
+	font-size: 2vw;
+	letter-spacing: 0.5vw;
+        color: black;
+}
+
+#czastopieniadz
+{
+        padding-top: 4%;
+        font-size: 2vw;
+	letter-spacing: 0.5vw;
+        color: black;
+        -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+        font-weight: bold;
+
+}
+
+#yeet
+{
+ display: flex;
+ align-items: stretch;
+ flex-flow: row wrap;
+}
+.block
+{
+    
+    
+    width:1.9vw;
+    height:1.9vw;
+    margin:1.8vw;
+    background-color: aliceblue;
+    
+    
+    
+}
+
+.block:hover
+{
+     background-color: pink;
+}
